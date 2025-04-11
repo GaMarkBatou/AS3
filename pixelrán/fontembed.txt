@@ -1,0 +1,9 @@
+var myTextBox:TextField = new TextField();    
+myTextBox.text = "Hello world!";    
+addChild(myTextBox); 
+
+[Embed(source="assets/Nanami.otf", fontName="testfontname", fontFamily="testfontfamily" embedAsCFF= "false")]
+
+fmt.font = "testfontname";
+
+http://www.republicofcode.com/tutorials/flash/as3externaltext/
